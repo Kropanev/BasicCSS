@@ -48,8 +48,9 @@ article h2 {
     margin-bottom: 5px;
 }
 
-article h2:nth-child(0, 1, 2)::after {
-    content: " NEW"; 
+article h2 :nth-child(1, 2) ::after {
+    content: "New";
+    color: blue; 
 }
 
 .article-meta {
